@@ -1,0 +1,15 @@
+capture,family,expected,labelled,ok
+OpelAstra_diagnostic,diagnostic,10,10,True
+OpelAstra_dosattack,dos,40016,40015,False
+OpelAstra_fuzzing_canid,fuzzing,10,11,False
+OpelAstra_fuzzing_payload,fuzzing,10,10,True
+OpelAstra_replay,replay,30,27,False
+RenaultClio_diagnostic,diagnostic,10,10,True
+RenaultClio_dosattack,dos,40001,40001,True
+RenaultClio_fuzzing_canid,fuzzing,10,10,True
+RenaultClio_fuzzing_payload,fuzzing,10,10,True
+RenaultClio_replay,replay,30,31,False
+Prototype_diagnostic,diagnostic,10,10,True
+Prototype_dosattack,dos,40037,40037,True
+Prototype_fuzzing_canid,fuzzing,10,10,True
+Prototype_fuzzing_payload,fuzzing,10,10,True
