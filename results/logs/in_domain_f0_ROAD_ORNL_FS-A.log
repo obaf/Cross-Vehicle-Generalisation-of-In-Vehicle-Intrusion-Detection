@@ -1,0 +1,17 @@
+[in_domain_f0_ROAD_ORNL_FS-A] train=150,000 (pos 11,890) calib=101,152 eval=113,006 (pos 11,877) dim=76
+   [in_domain_f0_ROAD_ORNL_FS-A] IForest                  PR-AUC=0.1288 ROC=0.5993 R@10FA=0.000 R@fpr1e-3=0.004 (2.4s+5.7s)
+   [in_domain_f0_ROAD_ORNL_FS-A] LogReg                   PR-AUC=0.5649 ROC=0.8327 R@10FA=0.071 R@fpr1e-3=0.189 (4.0s+0.2s)
+   [in_domain_f0_ROAD_ORNL_FS-A] RandomForest             PR-AUC=0.8117 ROC=0.9457 R@10FA=0.279 R@fpr1e-3=0.440 (64.2s+3.8s)
+   [in_domain_f0_ROAD_ORNL_FS-A] ExtraTrees               PR-AUC=0.9035 ROC=0.9798 R@10FA=0.152 R@fpr1e-3=0.390 (57.8s+5.2s)
+   [in_domain_f0_ROAD_ORNL_FS-A] HistGB                   PR-AUC=0.8687 ROC=0.9682 R@10FA=0.492 R@fpr1e-3=0.534 (48.9s+8.1s)
+   [in_domain_f0_ROAD_ORNL_FS-A] XGBoost                  PR-AUC=0.8759 ROC=0.9707 R@10FA=0.472 R@fpr1e-3=0.534 (14.5s+0.8s)
+   [in_domain_f0_ROAD_ORNL_FS-A] LightGBM                 PR-AUC=0.8908 ROC=0.9756 R@10FA=0.475 R@fpr1e-3=0.544 (19.5s+4.1s)
+   [in_domain_f0_ROAD_ORNL_FS-A] CatBoost                 PR-AUC=0.8920 ROC=0.9729 R@10FA=0.499 R@fpr1e-3=0.577 (31.1s+0.2s)
+   [in_domain_f0_ROAD_ORNL_FS-A] NN:MLP                   PR-AUC=0.8997 ROC=0.9777 R@10FA=0.415 R@fpr1e-3=0.521 (47.3s+0.2s)
+   [in_domain_f0_ROAD_ORNL_FS-A] NN:CNN1D                 PR-AUC=0.9389 ROC=0.9898 R@10FA=0.000 R@fpr1e-3=0.433 (77.6s+3.9s)
+   [in_domain_f0_ROAD_ORNL_FS-A] NN:LSTM                  PR-AUC=0.9283 ROC=0.9881 R@10FA=0.146 R@fpr1e-3=0.401 (112.3s+3.8s)
+   [in_domain_f0_ROAD_ORNL_FS-A] NN:Transformer           PR-AUC=0.9361 ROC=0.9885 R@10FA=0.000 R@fpr1e-3=0.384 (283.2s+5.7s)
+   [in_domain_f0_ROAD_ORNL_FS-A] Ens:RankAvg-Trees        PR-AUC=0.8758 ROC=0.9705 R@10FA=0.438 R@fpr1e-3=0.538 (92.8s+8.8s)
+   [in_domain_f0_ROAD_ORNL_FS-A] Ens:Stack-Trees          PR-AUC=0.9135 ROC=0.9818 R@10FA=0.071 R@fpr1e-3=0.414 (455.4s+13.5s)
+   [in_domain_f0_ROAD_ORNL_FS-A] Ens:RankAvg-Hybrid       PR-AUC=0.9278 ROC=0.9864 R@10FA=0.511 R@fpr1e-3=0.581 (259.8s+14.4s)
+[in_domain_f0_ROAD_ORNL_FS-A] done in 1660s

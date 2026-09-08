@@ -1,0 +1,17 @@
+[in_domain_f0_CTT_Silverado_FS-A] train=107,839 (pos 10,916) calib=48,462 eval=59,344 (pos 10,900) dim=76
+   [in_domain_f0_CTT_Silverado_FS-A] IForest                  PR-AUC=0.8280 ROC=0.8871 R@10FA=0.293 R@fpr1e-3=0.537 (2.1s+2.9s)
+   [in_domain_f0_CTT_Silverado_FS-A] LogReg                   PR-AUC=0.9150 ROC=0.9517 R@10FA=0.677 R@fpr1e-3=0.719 (1.8s+0.1s)
+   [in_domain_f0_CTT_Silverado_FS-A] RandomForest             PR-AUC=0.9529 ROC=0.9724 R@10FA=0.810 R@fpr1e-3=0.860 (70.7s+1.9s)
+   [in_domain_f0_CTT_Silverado_FS-A] ExtraTrees               PR-AUC=0.9453 ROC=0.9702 R@10FA=0.776 R@fpr1e-3=0.808 (54.3s+2.5s)
+   [in_domain_f0_CTT_Silverado_FS-A] HistGB                   PR-AUC=0.9610 ROC=0.9786 R@10FA=0.819 R@fpr1e-3=0.872 (25.4s+2.4s)
+   [in_domain_f0_CTT_Silverado_FS-A] XGBoost                  PR-AUC=0.9633 ROC=0.9794 R@10FA=0.830 R@fpr1e-3=0.879 (8.8s+0.4s)
+   [in_domain_f0_CTT_Silverado_FS-A] LightGBM                 PR-AUC=0.9647 ROC=0.9802 R@10FA=0.845 R@fpr1e-3=0.883 (11.2s+2.7s)
+   [in_domain_f0_CTT_Silverado_FS-A] CatBoost                 PR-AUC=0.9618 ROC=0.9773 R@10FA=0.821 R@fpr1e-3=0.889 (36.6s+0.1s)
+   [in_domain_f0_CTT_Silverado_FS-A] NN:MLP                   PR-AUC=0.9492 ROC=0.9705 R@10FA=0.789 R@fpr1e-3=0.825 (54.2s+0.2s)
+   [in_domain_f0_CTT_Silverado_FS-A] NN:CNN1D                 PR-AUC=0.9501 ROC=0.9728 R@10FA=0.714 R@fpr1e-3=0.815 (65.3s+2.2s)
+   [in_domain_f0_CTT_Silverado_FS-A] NN:LSTM                  PR-AUC=0.9560 ROC=0.9748 R@10FA=0.799 R@fpr1e-3=0.843 (106.8s+2.1s)
+   [in_domain_f0_CTT_Silverado_FS-A] NN:Transformer           PR-AUC=0.9502 ROC=0.9713 R@10FA=0.717 R@fpr1e-3=0.853 (296.0s+4.3s)
+   [in_domain_f0_CTT_Silverado_FS-A] Ens:RankAvg-Trees        PR-AUC=0.9636 ROC=0.9800 R@10FA=0.842 R@fpr1e-3=0.883 (113.8s+4.6s)
+   [in_domain_f0_CTT_Silverado_FS-A] Ens:Stack-Trees          PR-AUC=0.9606 ROC=0.9769 R@10FA=0.834 R@fpr1e-3=0.880 (551.6s+8.1s)
+   [in_domain_f0_CTT_Silverado_FS-A] Ens:RankAvg-Hybrid       PR-AUC=0.9668 ROC=0.9822 R@10FA=0.838 R@fpr1e-3=0.862 (331.9s+8.6s)
+[in_domain_f0_CTT_Silverado_FS-A] done in 1780s

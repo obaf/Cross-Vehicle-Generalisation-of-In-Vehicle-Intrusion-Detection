@@ -1,0 +1,17 @@
+[in_domain_f0_CTT_Forester_FS-A] train=112,043 (pos 13,814) calib=49,115 eval=62,883 (pos 13,793) dim=76
+   [in_domain_f0_CTT_Forester_FS-A] IForest                  PR-AUC=0.7551 ROC=0.8963 R@10FA=0.000 R@fpr1e-3=0.000 (3.2s+3.6s)
+   [in_domain_f0_CTT_Forester_FS-A] LogReg                   PR-AUC=0.9856 ROC=0.9918 R@10FA=0.802 R@fpr1e-3=0.899 (1.8s+0.1s)
+   [in_domain_f0_CTT_Forester_FS-A] RandomForest             PR-AUC=0.9956 ROC=0.9976 R@10FA=0.943 R@fpr1e-3=0.974 (72.8s+1.9s)
+   [in_domain_f0_CTT_Forester_FS-A] ExtraTrees               PR-AUC=0.9956 ROC=0.9976 R@10FA=0.920 R@fpr1e-3=0.964 (57.0s+2.5s)
+   [in_domain_f0_CTT_Forester_FS-A] HistGB                   PR-AUC=0.9960 ROC=0.9979 R@10FA=0.956 R@fpr1e-3=0.973 (23.1s+1.7s)
+   [in_domain_f0_CTT_Forester_FS-A] XGBoost                  PR-AUC=0.9958 ROC=0.9977 R@10FA=0.953 R@fpr1e-3=0.974 (10.0s+0.5s)
+   [in_domain_f0_CTT_Forester_FS-A] LightGBM                 PR-AUC=0.9965 ROC=0.9982 R@10FA=0.958 R@fpr1e-3=0.975 (24.7s+2.9s)
+   [in_domain_f0_CTT_Forester_FS-A] CatBoost                 PR-AUC=0.9963 ROC=0.9980 R@10FA=0.963 R@fpr1e-3=0.976 (36.5s+0.1s)
+   [in_domain_f0_CTT_Forester_FS-A] NN:MLP                   PR-AUC=0.9927 ROC=0.9960 R@10FA=0.877 R@fpr1e-3=0.927 (56.6s+0.2s)
+   [in_domain_f0_CTT_Forester_FS-A] NN:CNN1D                 PR-AUC=0.9994 ROC=0.9997 R@10FA=0.956 R@fpr1e-3=0.989 (91.1s+2.5s)
+   [in_domain_f0_CTT_Forester_FS-A] NN:LSTM                  PR-AUC=0.9994 ROC=0.9997 R@10FA=0.965 R@fpr1e-3=0.990 (139.2s+2.5s)
+   [in_domain_f0_CTT_Forester_FS-A] NN:Transformer           PR-AUC=0.9997 ROC=0.9998 R@10FA=0.989 R@fpr1e-3=0.996 (366.5s+3.5s)
+   [in_domain_f0_CTT_Forester_FS-A] Ens:RankAvg-Trees        PR-AUC=0.9965 ROC=0.9982 R@10FA=0.955 R@fpr1e-3=0.975 (93.2s+4.4s)
+   [in_domain_f0_CTT_Forester_FS-A] Ens:Stack-Trees          PR-AUC=0.9960 ROC=0.9979 R@10FA=0.952 R@fpr1e-3=0.978 (385.6s+6.5s)
+   [in_domain_f0_CTT_Forester_FS-A] Ens:RankAvg-Hybrid       PR-AUC=0.9980 ROC=0.9991 R@10FA=0.974 R@fpr1e-3=0.982 (268.0s+7.1s)
+[in_domain_f0_CTT_Forester_FS-A] done in 1676s

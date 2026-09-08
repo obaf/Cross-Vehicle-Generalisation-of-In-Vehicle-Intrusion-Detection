@@ -1,0 +1,18 @@
+[cross_domain_f0_CIDv2_Prototype_FS-A] train=150,000 (pos 75,000) calib=4,940 eval=5,994 (pos 1,058) dim=76
+   [cross_domain_f0_CIDv2_Prototype_FS-A] IForest                  PR-AUC=0.1743 ROC=0.3155 R@10FA=0.000 R@fpr1e-3=0.001 (1.6s+0.2s)
+   [cross_domain_f0_CIDv2_Prototype_FS-A] IForest@target           PR-AUC=0.9279 ROC=0.9818 R@10FA=0.594 R@fpr1e-3=0.614 (0.7s+0.3s)
+   [cross_domain_f0_CIDv2_Prototype_FS-A] LogReg                   PR-AUC=0.9159 ROC=0.9312 R@10FA=0.593 R@fpr1e-3=0.602 (2.7s+0.0s)
+   [cross_domain_f0_CIDv2_Prototype_FS-A] RandomForest             PR-AUC=0.9161 ROC=0.9230 R@10FA=0.852 R@fpr1e-3=0.857 (81.3s+0.3s)
+   [cross_domain_f0_CIDv2_Prototype_FS-A] ExtraTrees               PR-AUC=0.9159 ROC=0.9404 R@10FA=0.743 R@fpr1e-3=0.769 (60.8s+0.3s)
+   [cross_domain_f0_CIDv2_Prototype_FS-A] HistGB                   PR-AUC=0.9326 ROC=0.9379 R@10FA=0.772 R@fpr1e-3=0.790 (128.7s+0.8s)
+   [cross_domain_f0_CIDv2_Prototype_FS-A] XGBoost                  PR-AUC=0.9372 ROC=0.9467 R@10FA=0.853 R@fpr1e-3=0.867 (14.5s+0.1s)
+   [cross_domain_f0_CIDv2_Prototype_FS-A] LightGBM                 PR-AUC=0.9393 ROC=0.9369 R@10FA=0.876 R@fpr1e-3=0.894 (14.8s+0.2s)
+   [cross_domain_f0_CIDv2_Prototype_FS-A] CatBoost                 PR-AUC=0.9325 ROC=0.9337 R@10FA=0.875 R@fpr1e-3=0.888 (41.9s+0.0s)
+   [cross_domain_f0_CIDv2_Prototype_FS-A] NN:MLP                   PR-AUC=0.8722 ROC=0.9083 R@10FA=0.658 R@fpr1e-3=0.664 (118.2s+0.0s)
+   [cross_domain_f0_CIDv2_Prototype_FS-A] NN:CNN1D                 PR-AUC=0.2749 ROC=0.6776 R@10FA=0.000 R@fpr1e-3=0.000 (109.1s+0.2s)
+   [cross_domain_f0_CIDv2_Prototype_FS-A] NN:LSTM                  PR-AUC=0.9400 ROC=0.9396 R@10FA=0.589 R@fpr1e-3=0.761 (150.6s+0.3s)
+   [cross_domain_f0_CIDv2_Prototype_FS-A] NN:Transformer           PR-AUC=0.9417 ROC=0.9383 R@10FA=0.631 R@fpr1e-3=0.878 (481.9s+0.4s)
+   [cross_domain_f0_CIDv2_Prototype_FS-A] Ens:RankAvg-Trees        PR-AUC=0.9399 ROC=0.9433 R@10FA=0.874 R@fpr1e-3=0.890 (130.3s+0.5s)
+   [cross_domain_f0_CIDv2_Prototype_FS-A] Ens:Stack-Trees          PR-AUC=0.9353 ROC=0.9474 R@10FA=0.840 R@fpr1e-3=0.849 (530.4s+0.8s)
+   [cross_domain_f0_CIDv2_Prototype_FS-A] Ens:RankAvg-Hybrid       PR-AUC=0.9329 ROC=0.9314 R@10FA=0.816 R@fpr1e-3=0.836 (344.4s+0.7s)
+[cross_domain_f0_CIDv2_Prototype_FS-A] done in 2244s

@@ -1,0 +1,90 @@
+24 control jobs
+[A] CIDv2_Prototype FS-A done (30 rows)
+[A] CIDv2_RenaultClio FS-A done (30 rows)
+[A] CIDv2_Prototype FS-B done (72 rows)
+== A CIDv2_Prototype: 72 rows (675s)
+[A] CIDv2_RenaultClio FS-B done (72 rows)
+== A CIDv2_RenaultClio: 72 rows (704s)
+[A] CIDv2_OpelAstra FS-A done (30 rows)
+[A] CIDv2_OpelAstra FS-B done (72 rows)
+== A CIDv2_OpelAstra: 72 rows (1259s)
+[A] CTT_Forester FS-A done (30 rows)
+[A] CTT_Impala FS-A done (30 rows)
+[A] CTT_Silverado FS-A done (30 rows)
+[A] CTT_Traverse FS-A done (30 rows)
+[A] CTT_Impala FS-B done (72 rows)
+== A CTT_Impala: 72 rows (2810s)
+[A] CTT_Forester FS-B done (72 rows)
+== A CTT_Forester: 72 rows (3036s)
+[A] CTT_Silverado FS-B done (72 rows)
+== A CTT_Silverado: 72 rows (3440s)
+[A] CTT_Traverse FS-B done (72 rows)
+== A CTT_Traverse: 72 rows (3997s)
+[B] CIDv2_OpelAstra FS-B done (186 rows)
+[A] ROAD_ORNL FS-A done (30 rows)
+[B] CIDv2_Prototype FS-B done (186 rows)
+[B] CIDv2_RenaultClio FS-B done (186 rows)
+[A] ROAD_ORNL FS-B done (72 rows)
+== A ROAD_ORNL: 72 rows (6571s)
+[B] CIDv2_OpelAstra FS-A done (310 rows)
+== B CIDv2_OpelAstra: 310 rows (7762s)
+[B] CIDv2_Prototype FS-A done (310 rows)
+== B CIDv2_Prototype: 310 rows (7819s)
+[B] CIDv2_RenaultClio FS-A done (310 rows)
+== B CIDv2_RenaultClio: 310 rows (8206s)
+[B] CTT_Forester FS-B done (186 rows)
+[B] CTT_Impala FS-B done (186 rows)
+[B] CTT_Silverado FS-B done (186 rows)
+[B] CTT_Traverse FS-B done (186 rows)
+[B] CTT_Forester FS-A done (310 rows)
+== B CTT_Forester: 310 rows (12101s)
+[B] CTT_Impala FS-A done (310 rows)
+== B CTT_Impala: 310 rows (12960s)
+[B] CTT_Silverado FS-A done (310 rows)
+== B CTT_Silverado: 310 rows (13191s)
+[C] CIDv2_OpelAstra FS-B34 done
+[C] CIDv2_Prototype FS-B34 done
+[C] CIDv2_OpelAstra FS-B done
+[C] CIDv2_Prototype FS-B done
+[B] CTT_Traverse FS-A done (310 rows)
+== B CTT_Traverse: 310 rows (13692s)
+[C] CIDv2_OpelAstra FS-A-rank done
+[B] ROAD_ORNL FS-B done (186 rows)
+[C] CIDv2_RenaultClio FS-B34 done
+[C] CIDv2_Prototype FS-A-rank done
+[C] CIDv2_OpelAstra FS-A done
+== C CIDv2_OpelAstra: 23 rows (14178s)
+[C] CIDv2_RenaultClio FS-B done
+[C] CIDv2_Prototype FS-A done
+== C CIDv2_Prototype: 23 rows (14376s)
+[C] CTT_Forester FS-B34 done
+[C] CIDv2_RenaultClio FS-A-rank done
+[C] CTT_Impala FS-B34 done
+[C] CTT_Forester FS-B done
+[C] CIDv2_RenaultClio FS-A done
+== C CIDv2_RenaultClio: 23 rows (15022s)
+[C] CTT_Impala FS-B done
+[C] CTT_Forester FS-A-rank done
+[C] CTT_Silverado FS-B34 done
+[C] CTT_Impala FS-A-rank done
+[C] CTT_Forester FS-A done
+== C CTT_Forester: 23 rows (15578s)
+[C] CTT_Silverado FS-B done
+[C] CTT_Impala FS-A done
+== C CTT_Impala: 23 rows (15707s)
+[C] CTT_Traverse FS-B34 done
+[C] CTT_Silverado FS-A-rank done
+[C] ROAD_ORNL FS-B34 done
+[C] CTT_Traverse FS-B done
+[C] ROAD_ORNL FS-B done
+[C] CTT_Silverado FS-A done
+== C CTT_Silverado: 23 rows (16357s)
+[C] CTT_Traverse FS-A-rank done
+[C] ROAD_ORNL FS-A-rank done
+[C] CTT_Traverse FS-A done
+== C CTT_Traverse: 23 rows (16753s)
+[C] ROAD_ORNL FS-A done
+== C ROAD_ORNL: 23 rows (16955s)
+[B] ROAD_ORNL FS-A done (310 rows)
+== B ROAD_ORNL: 310 rows (17930s)
+controls done in 17933s

@@ -1,0 +1,17 @@
+[in_domain_f1_CTT_Traverse_FS-A] train=111,212 (pos 11,869) calib=49,670 eval=61,580 (pos 11,887) dim=76
+   [in_domain_f1_CTT_Traverse_FS-A] IForest                  PR-AUC=0.6834 ROC=0.7945 R@10FA=0.368 R@fpr1e-3=0.426 (2.1s+3.8s)
+   [in_domain_f1_CTT_Traverse_FS-A] LogReg                   PR-AUC=0.9647 ROC=0.9832 R@10FA=0.703 R@fpr1e-3=0.785 (1.6s+0.1s)
+   [in_domain_f1_CTT_Traverse_FS-A] RandomForest             PR-AUC=0.9800 ROC=0.9890 R@10FA=0.858 R@fpr1e-3=0.887 (64.5s+1.9s)
+   [in_domain_f1_CTT_Traverse_FS-A] ExtraTrees               PR-AUC=0.9835 ROC=0.9915 R@10FA=0.764 R@fpr1e-3=0.859 (57.7s+2.5s)
+   [in_domain_f1_CTT_Traverse_FS-A] HistGB                   PR-AUC=0.9883 ROC=0.9943 R@10FA=0.897 R@fpr1e-3=0.918 (59.5s+5.7s)
+   [in_domain_f1_CTT_Traverse_FS-A] XGBoost                  PR-AUC=0.9886 ROC=0.9944 R@10FA=0.886 R@fpr1e-3=0.917 (43.3s+0.6s)
+   [in_domain_f1_CTT_Traverse_FS-A] LightGBM                 PR-AUC=0.9885 ROC=0.9943 R@10FA=0.899 R@fpr1e-3=0.922 (27.2s+2.4s)
+   [in_domain_f1_CTT_Traverse_FS-A] CatBoost                 PR-AUC=0.9894 ROC=0.9946 R@10FA=0.899 R@fpr1e-3=0.931 (30.2s+0.2s)
+   [in_domain_f1_CTT_Traverse_FS-A] NN:MLP                   PR-AUC=0.9831 ROC=0.9922 R@10FA=0.813 R@fpr1e-3=0.866 (135.0s+0.1s)
+   [in_domain_f1_CTT_Traverse_FS-A] NN:CNN1D                 PR-AUC=0.9902 ROC=0.9970 R@10FA=0.000 R@fpr1e-3=0.000 (145.7s+2.6s)
+   [in_domain_f1_CTT_Traverse_FS-A] NN:LSTM                  PR-AUC=0.9947 ROC=0.9972 R@10FA=0.501 R@fpr1e-3=0.862 (267.9s+2.7s)
+   [in_domain_f1_CTT_Traverse_FS-A] NN:Transformer           PR-AUC=0.9966 ROC=0.9982 R@10FA=0.521 R@fpr1e-3=0.937 (502.7s+3.8s)
+   [in_domain_f1_CTT_Traverse_FS-A] Ens:RankAvg-Trees        PR-AUC=0.9881 ROC=0.9942 R@10FA=0.893 R@fpr1e-3=0.916 (111.9s+4.8s)
+   [in_domain_f1_CTT_Traverse_FS-A] Ens:Stack-Trees          PR-AUC=0.9870 ROC=0.9929 R@10FA=0.886 R@fpr1e-3=0.920 (480.7s+6.8s)
+   [in_domain_f1_CTT_Traverse_FS-A] Ens:RankAvg-Hybrid       PR-AUC=0.9939 ROC=0.9971 R@10FA=0.947 R@fpr1e-3=0.967 (261.6s+6.9s)
+[in_domain_f1_CTT_Traverse_FS-A] done in 2243s

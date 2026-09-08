@@ -1,0 +1,17 @@
+[in_domain_f1_ROAD_ORNL_FS-A] train=150,000 (pos 11,877) calib=101,141 eval=113,052 (pos 11,890) dim=76
+   [in_domain_f1_ROAD_ORNL_FS-A] IForest                  PR-AUC=0.0979 ROC=0.5084 R@10FA=0.000 R@fpr1e-3=0.003 (2.5s+5.7s)
+   [in_domain_f1_ROAD_ORNL_FS-A] LogReg                   PR-AUC=0.6430 ROC=0.8710 R@10FA=0.114 R@fpr1e-3=0.275 (5.6s+0.2s)
+   [in_domain_f1_ROAD_ORNL_FS-A] RandomForest             PR-AUC=0.8785 ROC=0.9676 R@10FA=0.445 R@fpr1e-3=0.553 (73.9s+3.6s)
+   [in_domain_f1_ROAD_ORNL_FS-A] ExtraTrees               PR-AUC=0.9449 ROC=0.9883 R@10FA=0.224 R@fpr1e-3=0.548 (55.3s+4.5s)
+   [in_domain_f1_ROAD_ORNL_FS-A] HistGB                   PR-AUC=0.9035 ROC=0.9789 R@10FA=0.500 R@fpr1e-3=0.562 (36.1s+6.0s)
+   [in_domain_f1_ROAD_ORNL_FS-A] XGBoost                  PR-AUC=0.9091 ROC=0.9801 R@10FA=0.524 R@fpr1e-3=0.589 (11.3s+0.8s)
+   [in_domain_f1_ROAD_ORNL_FS-A] LightGBM                 PR-AUC=0.9217 ROC=0.9842 R@10FA=0.518 R@fpr1e-3=0.588 (14.7s+3.9s)
+   [in_domain_f1_ROAD_ORNL_FS-A] CatBoost                 PR-AUC=0.9215 ROC=0.9835 R@10FA=0.526 R@fpr1e-3=0.619 (31.5s+0.2s)
+   [in_domain_f1_ROAD_ORNL_FS-A] NN:MLP                   PR-AUC=0.9306 ROC=0.9869 R@10FA=0.471 R@fpr1e-3=0.583 (52.4s+0.3s)
+   [in_domain_f1_ROAD_ORNL_FS-A] NN:CNN1D                 PR-AUC=0.9666 ROC=0.9941 R@10FA=0.000 R@fpr1e-3=0.711 (83.1s+4.3s)
+   [in_domain_f1_ROAD_ORNL_FS-A] NN:LSTM                  PR-AUC=0.9603 ROC=0.9907 R@10FA=0.371 R@fpr1e-3=0.707 (91.4s+3.8s)
+   [in_domain_f1_ROAD_ORNL_FS-A] NN:Transformer           PR-AUC=0.9704 ROC=0.9912 R@10FA=0.492 R@fpr1e-3=0.744 (272.9s+6.1s)
+   [in_domain_f1_ROAD_ORNL_FS-A] Ens:RankAvg-Trees        PR-AUC=0.9168 ROC=0.9825 R@10FA=0.521 R@fpr1e-3=0.587 (102.3s+8.3s)
+   [in_domain_f1_ROAD_ORNL_FS-A] Ens:Stack-Trees          PR-AUC=0.9476 ROC=0.9882 R@10FA=0.196 R@fpr1e-3=0.575 (471.4s+13.7s)
+   [in_domain_f1_ROAD_ORNL_FS-A] Ens:RankAvg-Hybrid       PR-AUC=0.9598 ROC=0.9927 R@10FA=0.582 R@fpr1e-3=0.658 (237.4s+11.7s)
+[in_domain_f1_ROAD_ORNL_FS-A] done in 1625s

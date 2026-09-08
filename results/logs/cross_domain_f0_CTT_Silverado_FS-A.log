@@ -1,0 +1,18 @@
+[cross_domain_f0_CTT_Silverado_FS-A] train=150,000 (pos 75,000) calib=96,923 eval=118,722 (pos 21,816) dim=76
+   [cross_domain_f0_CTT_Silverado_FS-A] IForest                  PR-AUC=0.6931 ROC=0.8523 R@10FA=0.017 R@fpr1e-3=0.089 (1.5s+4.6s)
+   [cross_domain_f0_CTT_Silverado_FS-A] IForest@target           PR-AUC=0.8199 ROC=0.8888 R@10FA=0.090 R@fpr1e-3=0.373 (1.9s+5.7s)
+   [cross_domain_f0_CTT_Silverado_FS-A] LogReg                   PR-AUC=0.7450 ROC=0.8551 R@10FA=0.190 R@fpr1e-3=0.297 (6.5s+0.2s)
+   [cross_domain_f0_CTT_Silverado_FS-A] RandomForest             PR-AUC=0.8301 ROC=0.8770 R@10FA=0.532 R@fpr1e-3=0.665 (76.6s+2.2s)
+   [cross_domain_f0_CTT_Silverado_FS-A] ExtraTrees               PR-AUC=0.8104 ROC=0.9024 R@10FA=0.211 R@fpr1e-3=0.322 (53.7s+2.6s)
+   [cross_domain_f0_CTT_Silverado_FS-A] HistGB                   PR-AUC=0.8172 ROC=0.8514 R@10FA=0.635 R@fpr1e-3=0.681 (54.5s+7.7s)
+   [cross_domain_f0_CTT_Silverado_FS-A] XGBoost                  PR-AUC=0.8290 ROC=0.8568 R@10FA=0.679 R@fpr1e-3=0.718 (14.2s+0.9s)
+   [cross_domain_f0_CTT_Silverado_FS-A] LightGBM                 PR-AUC=0.8169 ROC=0.8499 R@10FA=0.605 R@fpr1e-3=0.668 (39.6s+3.7s)
+   [cross_domain_f0_CTT_Silverado_FS-A] CatBoost                 PR-AUC=0.8326 ROC=0.8828 R@10FA=0.512 R@fpr1e-3=0.621 (35.0s+0.2s)
+   [cross_domain_f0_CTT_Silverado_FS-A] NN:MLP                   PR-AUC=0.7470 ROC=0.8480 R@10FA=0.211 R@fpr1e-3=0.328 (114.8s+0.4s)
+   [cross_domain_f0_CTT_Silverado_FS-A] NN:CNN1D                 PR-AUC=0.1827 ROC=0.4965 R@10FA=0.000 R@fpr1e-3=0.000 (213.6s+4.3s)
+   [cross_domain_f0_CTT_Silverado_FS-A] NN:LSTM                  PR-AUC=0.5972 ROC=0.7867 R@10FA=0.196 R@fpr1e-3=0.257 (196.7s+4.2s)
+   [cross_domain_f0_CTT_Silverado_FS-A] NN:Transformer           PR-AUC=0.1429 ROC=0.2477 R@10FA=0.012 R@fpr1e-3=0.017 (539.7s+6.8s)
+   [cross_domain_f0_CTT_Silverado_FS-A] Ens:RankAvg-Trees        PR-AUC=0.8297 ROC=0.8584 R@10FA=0.703 R@fpr1e-3=0.720 (128.1s+7.1s)
+   [cross_domain_f0_CTT_Silverado_FS-A] Ens:Stack-Trees          PR-AUC=0.8218 ROC=0.8824 R@10FA=0.085 R@fpr1e-3=0.420 (608.0s+9.1s)
+   [cross_domain_f0_CTT_Silverado_FS-A] Ens:RankAvg-Hybrid       PR-AUC=0.8356 ROC=0.8674 R@10FA=0.680 R@fpr1e-3=0.708 (634.2s+13.6s)
+[cross_domain_f0_CTT_Silverado_FS-A] done in 2821s

@@ -1,0 +1,18 @@
+[cross_domain_f0_CTT_Impala_FS-A] train=150,000 (pos 75,000) calib=85,805 eval=98,401 (pos 12,610) dim=76
+   [cross_domain_f0_CTT_Impala_FS-A] IForest                  PR-AUC=0.1089 ROC=0.4382 R@10FA=0.000 R@fpr1e-3=0.000 (1.6s+3.7s)
+   [cross_domain_f0_CTT_Impala_FS-A] IForest@target           PR-AUC=0.5789 ROC=0.7736 R@10FA=0.234 R@fpr1e-3=0.243 (1.7s+4.9s)
+   [cross_domain_f0_CTT_Impala_FS-A] LogReg                   PR-AUC=0.5864 ROC=0.7715 R@10FA=0.280 R@fpr1e-3=0.340 (2.8s+0.1s)
+   [cross_domain_f0_CTT_Impala_FS-A] RandomForest             PR-AUC=0.4301 ROC=0.6519 R@10FA=0.259 R@fpr1e-3=0.278 (74.5s+2.0s)
+   [cross_domain_f0_CTT_Impala_FS-A] ExtraTrees               PR-AUC=0.4383 ROC=0.6694 R@10FA=0.256 R@fpr1e-3=0.265 (52.2s+2.2s)
+   [cross_domain_f0_CTT_Impala_FS-A] HistGB                   PR-AUC=0.3008 ROC=0.6162 R@10FA=0.049 R@fpr1e-3=0.080 (54.5s+6.0s)
+   [cross_domain_f0_CTT_Impala_FS-A] XGBoost                  PR-AUC=0.2596 ROC=0.5862 R@10FA=0.046 R@fpr1e-3=0.086 (15.8s+0.9s)
+   [cross_domain_f0_CTT_Impala_FS-A] LightGBM                 PR-AUC=0.4467 ROC=0.6594 R@10FA=0.189 R@fpr1e-3=0.254 (60.1s+3.4s)
+   [cross_domain_f0_CTT_Impala_FS-A] CatBoost                 PR-AUC=0.4003 ROC=0.6636 R@10FA=0.058 R@fpr1e-3=0.110 (33.1s+0.2s)
+   [cross_domain_f0_CTT_Impala_FS-A] NN:MLP                   PR-AUC=0.5392 ROC=0.7003 R@10FA=0.371 R@fpr1e-3=0.384 (148.4s+0.3s)
+   [cross_domain_f0_CTT_Impala_FS-A] NN:CNN1D                 PR-AUC=0.1321 ROC=0.5172 R@10FA=0.000 R@fpr1e-3=0.000 (166.0s+3.7s)
+   [cross_domain_f0_CTT_Impala_FS-A] NN:LSTM                  PR-AUC=0.8146 ROC=0.9030 R@10FA=0.341 R@fpr1e-3=0.553 (261.4s+4.1s)
+   [cross_domain_f0_CTT_Impala_FS-A] NN:Transformer           PR-AUC=0.6422 ROC=0.8586 R@10FA=0.156 R@fpr1e-3=0.249 (439.5s+5.8s)
+   [cross_domain_f0_CTT_Impala_FS-A] Ens:RankAvg-Trees        PR-AUC=0.4381 ROC=0.6473 R@10FA=0.140 R@fpr1e-3=0.279 (125.1s+6.1s)
+   [cross_domain_f0_CTT_Impala_FS-A] Ens:Stack-Trees          PR-AUC=0.4315 ROC=0.6640 R@10FA=0.050 R@fpr1e-3=0.212 (574.5s+7.4s)
+   [cross_domain_f0_CTT_Impala_FS-A] Ens:RankAvg-Hybrid       PR-AUC=0.5558 ROC=0.7084 R@10FA=0.278 R@fpr1e-3=0.353 (322.5s+10.5s)
+[cross_domain_f0_CTT_Impala_FS-A] done in 2424s

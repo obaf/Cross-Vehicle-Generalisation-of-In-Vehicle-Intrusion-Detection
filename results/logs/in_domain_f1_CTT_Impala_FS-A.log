@@ -1,0 +1,17 @@
+[in_domain_f1_CTT_Impala_FS-A] train=92,090 (pos 6,299) calib=42,894 eval=49,222 (pos 6,311) dim=76
+   [in_domain_f1_CTT_Impala_FS-A] IForest                  PR-AUC=0.4729 ROC=0.7683 R@10FA=0.024 R@fpr1e-3=0.114 (1.8s+2.9s)
+   [in_domain_f1_CTT_Impala_FS-A] LogReg                   PR-AUC=0.9857 ROC=0.9952 R@10FA=0.668 R@fpr1e-3=0.778 (1.2s+0.1s)
+   [in_domain_f1_CTT_Impala_FS-A] RandomForest             PR-AUC=0.9923 ROC=0.9964 R@10FA=0.844 R@fpr1e-3=0.968 (47.3s+1.3s)
+   [in_domain_f1_CTT_Impala_FS-A] ExtraTrees               PR-AUC=0.9910 ROC=0.9972 R@10FA=0.724 R@fpr1e-3=0.912 (36.1s+1.7s)
+   [in_domain_f1_CTT_Impala_FS-A] HistGB                   PR-AUC=0.9951 ROC=0.9981 R@10FA=0.963 R@fpr1e-3=0.984 (17.7s+1.3s)
+   [in_domain_f1_CTT_Impala_FS-A] XGBoost                  PR-AUC=0.9957 ROC=0.9986 R@10FA=0.967 R@fpr1e-3=0.983 (7.9s+0.3s)
+   [in_domain_f1_CTT_Impala_FS-A] LightGBM                 PR-AUC=0.9950 ROC=0.9981 R@10FA=0.960 R@fpr1e-3=0.983 (26.3s+1.8s)
+   [in_domain_f1_CTT_Impala_FS-A] CatBoost                 PR-AUC=0.9959 ROC=0.9982 R@10FA=0.971 R@fpr1e-3=0.984 (20.9s+0.1s)
+   [in_domain_f1_CTT_Impala_FS-A] NN:MLP                   PR-AUC=0.9949 ROC=0.9981 R@10FA=0.904 R@fpr1e-3=0.964 (42.5s+0.2s)
+   [in_domain_f1_CTT_Impala_FS-A] NN:CNN1D                 PR-AUC=0.9573 ROC=0.9946 R@10FA=0.000 R@fpr1e-3=0.000 (77.4s+2.2s)
+   [in_domain_f1_CTT_Impala_FS-A] NN:LSTM                  PR-AUC=0.9467 ROC=0.9928 R@10FA=0.052 R@fpr1e-3=0.185 (107.0s+1.8s)
+   [in_domain_f1_CTT_Impala_FS-A] NN:Transformer           PR-AUC=0.9969 ROC=0.9994 R@10FA=0.595 R@fpr1e-3=0.644 (234.9s+3.0s)
+   [in_domain_f1_CTT_Impala_FS-A] Ens:RankAvg-Trees        PR-AUC=0.9950 ROC=0.9982 R@10FA=0.963 R@fpr1e-3=0.980 (80.0s+3.7s)
+   [in_domain_f1_CTT_Impala_FS-A] Ens:Stack-Trees          PR-AUC=0.9940 ROC=0.9975 R@10FA=0.862 R@fpr1e-3=0.981 (365.0s+5.5s)
+   [in_domain_f1_CTT_Impala_FS-A] Ens:RankAvg-Hybrid       PR-AUC=0.9969 ROC=0.9991 R@10FA=0.760 R@fpr1e-3=0.983 (230.6s+6.5s)
+[in_domain_f1_CTT_Impala_FS-A] done in 1334s

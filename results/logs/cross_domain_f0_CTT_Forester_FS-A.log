@@ -1,0 +1,18 @@
+[cross_domain_f0_CTT_Forester_FS-A] train=150,000 (pos 75,000) calib=98,229 eval=125,812 (pos 27,607) dim=76
+   [cross_domain_f0_CTT_Forester_FS-A] IForest                  PR-AUC=0.2894 ROC=0.5346 R@10FA=0.000 R@fpr1e-3=0.000 (2.0s+6.1s)
+   [cross_domain_f0_CTT_Forester_FS-A] IForest@target           PR-AUC=0.6427 ROC=0.7839 R@10FA=0.004 R@fpr1e-3=0.005 (2.5s+6.2s)
+   [cross_domain_f0_CTT_Forester_FS-A] LogReg                   PR-AUC=0.3279 ROC=0.5070 R@10FA=0.059 R@fpr1e-3=0.066 (5.4s+0.2s)
+   [cross_domain_f0_CTT_Forester_FS-A] RandomForest             PR-AUC=0.5341 ROC=0.7107 R@10FA=0.142 R@fpr1e-3=0.167 (80.2s+3.0s)
+   [cross_domain_f0_CTT_Forester_FS-A] ExtraTrees               PR-AUC=0.5646 ROC=0.7483 R@10FA=0.120 R@fpr1e-3=0.151 (69.0s+3.0s)
+   [cross_domain_f0_CTT_Forester_FS-A] HistGB                   PR-AUC=0.4696 ROC=0.6583 R@10FA=0.131 R@fpr1e-3=0.144 (73.4s+8.3s)
+   [cross_domain_f0_CTT_Forester_FS-A] XGBoost                  PR-AUC=0.4244 ROC=0.6157 R@10FA=0.141 R@fpr1e-3=0.152 (13.7s+1.0s)
+   [cross_domain_f0_CTT_Forester_FS-A] LightGBM                 PR-AUC=0.4505 ROC=0.6215 R@10FA=0.145 R@fpr1e-3=0.157 (15.4s+4.0s)
+   [cross_domain_f0_CTT_Forester_FS-A] CatBoost                 PR-AUC=0.5132 ROC=0.6709 R@10FA=0.142 R@fpr1e-3=0.182 (40.9s+0.2s)
+   [cross_domain_f0_CTT_Forester_FS-A] NN:MLP                   PR-AUC=0.4389 ROC=0.6070 R@10FA=0.096 R@fpr1e-3=0.116 (115.5s+0.3s)
+   [cross_domain_f0_CTT_Forester_FS-A] NN:CNN1D                 PR-AUC=0.2262 ROC=0.5190 R@10FA=0.000 R@fpr1e-3=0.000 (112.2s+5.1s)
+   [cross_domain_f0_CTT_Forester_FS-A] NN:LSTM                  PR-AUC=0.5301 ROC=0.7340 R@10FA=0.132 R@fpr1e-3=0.177 (173.6s+5.1s)
+   [cross_domain_f0_CTT_Forester_FS-A] NN:Transformer           PR-AUC=0.5445 ROC=0.7088 R@10FA=0.108 R@fpr1e-3=0.207 (465.7s+6.6s)
+   [cross_domain_f0_CTT_Forester_FS-A] Ens:RankAvg-Trees        PR-AUC=0.4391 ROC=0.6220 R@10FA=0.148 R@fpr1e-3=0.159 (111.9s+7.4s)
+   [cross_domain_f0_CTT_Forester_FS-A] Ens:Stack-Trees          PR-AUC=0.4638 ROC=0.6322 R@10FA=0.137 R@fpr1e-3=0.162 (476.5s+9.1s)
+   [cross_domain_f0_CTT_Forester_FS-A] Ens:RankAvg-Hybrid       PR-AUC=0.4483 ROC=0.6249 R@10FA=0.156 R@fpr1e-3=0.167 (342.2s+12.4s)
+[cross_domain_f0_CTT_Forester_FS-A] done in 2210s

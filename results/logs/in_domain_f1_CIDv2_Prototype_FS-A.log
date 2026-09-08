@@ -1,0 +1,17 @@
+[in_domain_f1_CIDv2_Prototype_FS-A] train=5,464 (pos 528) calib=2,468 eval=3,002 (pos 530) dim=76
+   [in_domain_f1_CIDv2_Prototype_FS-A] IForest                  PR-AUC=0.9413 ROC=0.9830 R@10FA=0.608 R@fpr1e-3=0.611 (0.8s+0.2s)
+   [in_domain_f1_CIDv2_Prototype_FS-A] LogReg                   PR-AUC=0.9860 ROC=0.9934 R@10FA=0.921 R@fpr1e-3=0.921 (0.1s+0.0s)
+   [in_domain_f1_CIDv2_Prototype_FS-A] RandomForest             PR-AUC=0.9998 ROC=1.0000 R@10FA=0.970 R@fpr1e-3=0.970 (2.0s+0.3s)
+   [in_domain_f1_CIDv2_Prototype_FS-A] ExtraTrees               PR-AUC=0.9990 ROC=0.9996 R@10FA=0.930 R@fpr1e-3=0.949 (1.2s+0.4s)
+   [in_domain_f1_CIDv2_Prototype_FS-A] HistGB                   PR-AUC=0.9992 ROC=0.9997 R@10FA=0.970 R@fpr1e-3=0.970 (24.4s+1.6s)
+   [in_domain_f1_CIDv2_Prototype_FS-A] XGBoost                  PR-AUC=0.9986 ROC=0.9993 R@10FA=0.945 R@fpr1e-3=0.945 (3.6s+0.0s)
+   [in_domain_f1_CIDv2_Prototype_FS-A] LightGBM                 PR-AUC=0.9994 ROC=0.9998 R@10FA=0.972 R@fpr1e-3=0.972 (5.5s+0.1s)
+   [in_domain_f1_CIDv2_Prototype_FS-A] CatBoost                 PR-AUC=0.9983 ROC=0.9989 R@10FA=0.940 R@fpr1e-3=0.940 (5.4s+0.0s)
+   [in_domain_f1_CIDv2_Prototype_FS-A] NN:MLP                   PR-AUC=0.9880 ROC=0.9904 R@10FA=0.936 R@fpr1e-3=0.936 (3.7s+0.0s)
+   [in_domain_f1_CIDv2_Prototype_FS-A] NN:CNN1D                 PR-AUC=0.9938 ROC=0.9978 R@10FA=0.000 R@fpr1e-3=0.581 (4.9s+0.2s)
+   [in_domain_f1_CIDv2_Prototype_FS-A] NN:LSTM                  PR-AUC=0.9818 ROC=0.9906 R@10FA=0.742 R@fpr1e-3=0.796 (6.1s+0.1s)
+   [in_domain_f1_CIDv2_Prototype_FS-A] NN:Transformer           PR-AUC=0.9926 ROC=0.9971 R@10FA=0.585 R@fpr1e-3=0.847 (17.8s+0.3s)
+   [in_domain_f1_CIDv2_Prototype_FS-A] Ens:RankAvg-Trees        PR-AUC=0.9992 ROC=0.9997 R@10FA=0.960 R@fpr1e-3=0.960 (7.0s+0.3s)
+   [in_domain_f1_CIDv2_Prototype_FS-A] Ens:Stack-Trees          PR-AUC=0.9995 ROC=0.9999 R@10FA=0.958 R@fpr1e-3=0.958 (28.0s+0.6s)
+   [in_domain_f1_CIDv2_Prototype_FS-A] Ens:RankAvg-Hybrid       PR-AUC=0.9952 ROC=0.9982 R@10FA=0.964 R@fpr1e-3=0.970 (17.5s+1.0s)
+[in_domain_f1_CIDv2_Prototype_FS-A] done in 134s

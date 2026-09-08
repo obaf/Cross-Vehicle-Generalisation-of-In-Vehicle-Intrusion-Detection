@@ -1,0 +1,17 @@
+[in_domain_f0_CIDv2_RenaultClio_FS-A] train=8,657 (pos 433) calib=4,112 eval=4,540 (pos 431) dim=76
+   [in_domain_f0_CIDv2_RenaultClio_FS-A] IForest                  PR-AUC=0.7707 ROC=0.8524 R@10FA=0.729 R@fpr1e-3=0.729 (0.8s+0.3s)
+   [in_domain_f0_CIDv2_RenaultClio_FS-A] LogReg                   PR-AUC=0.9740 ROC=0.9869 R@10FA=0.789 R@fpr1e-3=0.854 (0.1s+0.0s)
+   [in_domain_f0_CIDv2_RenaultClio_FS-A] RandomForest             PR-AUC=0.9875 ROC=0.9925 R@10FA=0.972 R@fpr1e-3=0.977 (2.4s+0.3s)
+   [in_domain_f0_CIDv2_RenaultClio_FS-A] ExtraTrees               PR-AUC=0.9878 ROC=0.9913 R@10FA=0.974 R@fpr1e-3=0.974 (1.5s+0.3s)
+   [in_domain_f0_CIDv2_RenaultClio_FS-A] HistGB                   PR-AUC=0.9885 ROC=0.9923 R@10FA=0.974 R@fpr1e-3=0.977 (13.9s+0.5s)
+   [in_domain_f0_CIDv2_RenaultClio_FS-A] XGBoost                  PR-AUC=0.9895 ROC=0.9951 R@10FA=0.970 R@fpr1e-3=0.977 (3.2s+0.0s)
+   [in_domain_f0_CIDv2_RenaultClio_FS-A] LightGBM                 PR-AUC=0.9901 ROC=0.9958 R@10FA=0.972 R@fpr1e-3=0.984 (6.3s+0.1s)
+   [in_domain_f0_CIDv2_RenaultClio_FS-A] CatBoost                 PR-AUC=0.9887 ROC=0.9918 R@10FA=0.981 R@fpr1e-3=0.984 (6.2s+0.0s)
+   [in_domain_f0_CIDv2_RenaultClio_FS-A] NN:MLP                   PR-AUC=0.9833 ROC=0.9903 R@10FA=0.972 R@fpr1e-3=0.974 (4.1s+0.0s)
+   [in_domain_f0_CIDv2_RenaultClio_FS-A] NN:CNN1D                 PR-AUC=0.9840 ROC=0.9900 R@10FA=0.974 R@fpr1e-3=0.974 (6.5s+0.2s)
+   [in_domain_f0_CIDv2_RenaultClio_FS-A] NN:LSTM                  PR-AUC=0.9814 ROC=0.9891 R@10FA=0.972 R@fpr1e-3=0.972 (9.8s+0.2s)
+   [in_domain_f0_CIDv2_RenaultClio_FS-A] NN:Transformer           PR-AUC=0.9824 ROC=0.9899 R@10FA=0.974 R@fpr1e-3=0.974 (25.0s+0.3s)
+   [in_domain_f0_CIDv2_RenaultClio_FS-A] Ens:RankAvg-Trees        PR-AUC=0.9893 ROC=0.9952 R@10FA=0.970 R@fpr1e-3=0.977 (12.0s+0.4s)
+   [in_domain_f0_CIDv2_RenaultClio_FS-A] Ens:Stack-Trees          PR-AUC=0.9877 ROC=0.9921 R@10FA=0.974 R@fpr1e-3=0.977 (57.0s+0.8s)
+   [in_domain_f0_CIDv2_RenaultClio_FS-A] Ens:RankAvg-Hybrid       PR-AUC=0.9883 ROC=0.9943 R@10FA=0.977 R@fpr1e-3=0.979 (18.9s+0.7s)
+[in_domain_f0_CIDv2_RenaultClio_FS-A] done in 173s
